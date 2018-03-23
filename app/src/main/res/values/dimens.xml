@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="detail_title_vertical_padding">16dp</dimen>
+    <dimen name="detail_title_text_size">24sp</dimen>
+    <dimen name="detail_padding_left">16dp</dimen>
+    <dimen name="detail_cover_vertical_margin">16dp</dimen>
+    <dimen name="detail_left_margin">16dp</dimen>
+    <dimen name="detail_text_horizontal_margin">8dp</dimen>
+    <dimen name="detail_text_vertical_margin">16dp</dimen>
+    <dimen name="detail_rating_top_margin">8dp</dimen>
+
+    <dimen name="progress_bar_margin">16dp</dimen>
+    <dimen name="detail_item_vertical_padding">8dp</dimen>
+    <dimen name="button_padding">8dp</dimen>
+    <dimen name="small_margin">8dp</dimen>
+</resources>
