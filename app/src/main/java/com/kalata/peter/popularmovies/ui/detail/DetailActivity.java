@@ -152,9 +152,9 @@ public class DetailActivity extends AppCompatActivity implements TrailerAdapter.
                 Uri.parse(TRAILER_APP_VND + trailer.getKey()));
         Intent webIntent = new Intent(Intent.ACTION_VIEW,
                 Uri.parse(TRAILER_WATCH_URL + trailer.getKey()));
-        try {
+        if (appIntent.resolveActivity(getPackageManager()) != null) {
             startActivity(appIntent);
-        } catch (ActivityNotFoundException ex) {
+        } else if (webIntent.resolveActivity(getPackageManager()) != null) {
             startActivity(webIntent);
         }
     }
